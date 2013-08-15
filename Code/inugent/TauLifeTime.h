@@ -24,7 +24,7 @@ class TauLifeTime : public Selection {
          TauFit,
 	     deltaPhi,
 	     Charge,
-	     //ZMassmax,
+	     MT,
 	     NCuts};
 
  protected:
@@ -45,7 +45,7 @@ class TauLifeTime : public Selection {
   std::vector<TH1D> ResTauFlightLengthTransverse;
   std::vector<TH1D> ResTrueTauMomentum;
   std::vector<TH1D> ResTauMomentumTransverse;
-  std::vector<TH1D>  ResTauMomentum;
+  std::vector<TH1D> ResTauMomentum;
   std::vector<TH1D> ResTrueTauMomentumTransverse;
   std::vector<TH1D> ResTrueTauLife;
   std::vector<TH1D> ResTrueTauLifeTransverse;
